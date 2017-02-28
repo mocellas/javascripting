@@ -9,9 +9,10 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
+:q!
+:wq~
 :wq1
 :w!
-:q!
 :'<,'>q!
 :wq
 
@@ -25,21 +26,57 @@
 
 # Registers:
 ""-	CHAR	0
-	 
+	t
 
 # File marks:
-'0  1  10  /vagrant/gitMocellin/readme.txt
-'1  4  0  /vagrant/gitMocellin/readme.txt
-'2  16  3  /vagrant/javascripting/scope.js
-'3  1  180  /vagrant/javascripting/scope.js
-'4  1  408  /vagrant/javascripting/scope.js
-'5  1  0  /vagrant/javascripting/function-arguments.js
-'6  4  25  /vagrant/javascripting/function-arguments.js
-'7  1  8  /vagrant/javascripting/function.js
-'8  1  13  /vagrant/javascripting/function.js
-'9  1  0  /vagrant/javascripting/functions.js
+'0  3  0  ~/lighthouse-js-fundamentals/LoopeLighthouse.js
+'1  1  0  ~/lighthouse-js-fundamentals/LoopeLighthouse.js
+'2  6  0  ~/lighthouse-js-fundamentals/touch
+'3  10  0  ~/lighthouse-js-fundamentals/ingredients.js
+'4  4  0  ~/lighthouse-js-fundamentals/ingredients.js
+'5  4  0  /vagrant/lighthouse-js-fundamentals/lighthouse-js-fundamentals/ingredients.js
+'6  4  29  /vagrant/javascripting/packing-list.js
+'7  5  37  /vagrant/javascripting/chorus-for.js
+'8  8  0  /vagrant/javascripting/chorus-while.js
+'9  5  10  ~/lighthouse-js-fundamentals/chorus-for.js
 
 # Jumplist (newest first):
+-'  3  0  ~/lighthouse-js-fundamentals/LoopeLighthouse.js
+-'  1  0  ~/lighthouse-js-fundamentals/LoopeLighthouse.js
+-'  6  0  ~/lighthouse-js-fundamentals/touch
+-'  1  0  ~/lighthouse-js-fundamentals/touch
+-'  10  0  ~/lighthouse-js-fundamentals/ingredients.js
+-'  1  0  ~/lighthouse-js-fundamentals/ingredients.js
+-'  4  0  ~/lighthouse-js-fundamentals/ingredients.js
+-'  4  0  /vagrant/lighthouse-js-fundamentals/lighthouse-js-fundamentals/ingredients.js
+-'  1  0  /vagrant/lighthouse-js-fundamentals/lighthouse-js-fundamentals/ingredients.js
+-'  4  29  /vagrant/javascripting/packing-list.js
+-'  1  0  /vagrant/javascripting/packing-list.js
+-'  5  37  /vagrant/javascripting/chorus-for.js
+-'  1  0  /vagrant/javascripting/chorus-for.js
+-'  8  0  /vagrant/javascripting/chorus-while.js
+-'  1  0  /vagrant/javascripting/chorus-while.js
+-'  5  10  ~/lighthouse-js-fundamentals/chorus-for.js
+-'  1  0  ~/lighthouse-js-fundamentals/chorus-for.js
+-'  5  12  ~/lighthouse-js-fundamentals/packing-list.js
+-'  1  0  ~/lighthouse-js-fundamentals/packing-list.js
+-'  7  33  ~/lighthouse-js-fundamentals/chorus-while.js
+-'  1  0  ~/lighthouse-js-fundamentals/chorus-while.js
+-'  1  0  ~/lighthouse-js-fundamentals/exerLooping.js
+-'  8  0  ~/lighthouse-js-fundamentals/exerLooping.js
+-'  10  0  ~/lighthouse-js-fundamentals/whichSchool.js
+-'  1  0  ~/lighthouse-js-fundamentals/whichSchool.js
+-'  1  0  ~/lighthouse-js-fundamentals/go-outside.js
+-'  11  0  ~/lighthouse-js-fundamentals/go-outside.js
+-'  10  46  ~/lighthouse-js-fundamentals/go-outside.js
+-'  1  0  ~/lighthouse-js-fundamentals/even.js
+-'  2  14  ~/lighthouse-js-fundamentals/odd.js
+-'  1  0  ~/lighthouse-js-fundamentals/odd.js
+-'  5  35  ~/lighthouse-js-fundamentals/odd.js
+-'  8  25  ~/lighthouse-js-fundamentals/even.js
+-'  4  10  ~/lighthouse-js-fundamentals/hello.js
+-'  1  0  ~/lighthouse-js-fundamentals/hello.js
+-'  5  0  ~/lighthouse-js-fundamentals/hello.js
 -'  1  10  /vagrant/gitMocellin/readme.txt
 -'  4  0  /vagrant/gitMocellin/readme.txt
 -'  16  3  /vagrant/javascripting/scope.js
@@ -101,44 +138,167 @@
 -'  2  19  /vagrant/javascripting/variables.js
 -'  1  21  /vagrant/javascripting/variables.js
 -'  2  19  /vagrant/javascripting/variables.js
--'  1  21  /vagrant/javascripting/variables.js
--'  2  19  /vagrant/javascripting/variables.js
--'  1  21  /vagrant/javascripting/variables.js
--'  2  19  /vagrant/javascripting/variables.js
--'  1  21  /vagrant/javascripting/variables.js
--'  2  19  /vagrant/javascripting/variables.js
--'  1  17  /vagrant/javascripting/introduction.js
--'  1  21  /vagrant/javascripting/variables.js
--'  2  19  /vagrant/javascripting/variables.js
--'  1  21  /vagrant/javascripting/variables.js
--'  2  19  /vagrant/javascripting/variables.js
--'  1  21  /vagrant/javascripting/variables.js
--'  2  19  /vagrant/javascripting/variables.js
--'  1  21  /vagrant/javascripting/variables.js
--'  2  19  /vagrant/javascripting/variables.js
--'  1  21  /vagrant/javascripting/variables.js
--'  2  19  /vagrant/javascripting/variables.js
--'  1  21  /vagrant/javascripting/variables.js
--'  2  19  /vagrant/javascripting/variables.js
--'  1  21  /vagrant/javascripting/variables.js
--'  2  19  /vagrant/javascripting/variables.js
--'  1  21  /vagrant/javascripting/variables.js
--'  2  19  /vagrant/javascripting/variables.js
--'  1  17  /vagrant/javascripting/introduction.js
--'  1  21  /vagrant/javascripting/variables.js
--'  2  19  /vagrant/javascripting/variables.js
--'  1  21  /vagrant/javascripting/variables.js
--'  2  19  /vagrant/javascripting/variables.js
--'  1  21  /vagrant/javascripting/variables.js
--'  2  19  /vagrant/javascripting/variables.js
--'  1  21  /vagrant/javascripting/variables.js
--'  2  19  /vagrant/javascripting/variables.js
--'  1  21  /vagrant/javascripting/variables.js
--'  2  19  /vagrant/javascripting/variables.js
--'  1  21  /vagrant/javascripting/variables.js
--'  2  19  /vagrant/javascripting/variables.js
 
 # History of marks within files (newest to oldest):
+
+> ~/lighthouse-js-fundamentals/LoopeLighthouse.js
+	"	3	0
+	^	3	0
+	.	2	0
+	+	1	111
+	+	1	87
+	+	16	0
+	+	1	240
+	+	15	0
+	+	1	0
+	+	2	14
+	+	5	20
+	+	8	37
+	+	2	0
+	+	5	1
+	+	8	1
+	+	11	1
+	+	2	0
+
+> ~/lighthouse-js-fundamentals/touch
+	"	6	0
+	^	6	1
+	.	6	0
+	+	1	25
+	+	1	16
+	+	2	9
+	+	4	30
+	+	6	0
+
+> ~/lighthouse-js-fundamentals/ingredients.js
+	"	10	0
+	^	4	0
+	.	13	0
+	+	13	0
+
+> /vagrant/lighthouse-js-fundamentals/lighthouse-js-fundamentals/ingredients.js
+	"	4	0
+	^	4	0
+	.	3	66
+	+	8	0
+	+	3	66
+
+> /vagrant/javascripting/packing-list.js
+	"	4	29
+	^	4	30
+	.	2	0
+	+	5	0
+	+	1	112
+	+	2	0
+
+> /vagrant/javascripting/chorus-for.js
+	"	5	37
+	^	5	38
+	.	5	37
+	+	4	0
+	+	3	19
+	+	5	37
+
+> /vagrant/javascripting/chorus-while.js
+	"	8	0
+	^	8	0
+	.	7	38
+	+	1	26
+	+	7	38
+
+> ~/lighthouse-js-fundamentals/chorus-for.js
+	"	5	10
+	^	5	11
+	.	5	10
+	+	5	32
+	+	3	10
+	+	5	10
+
+> ~/lighthouse-js-fundamentals/packing-list.js
+	"	5	12
+	^	5	13
+	.	5	12
+	+	6	0
+	+	3	5
+	+	5	7
+	+	3	10
+	+	5	12
+
+> ~/lighthouse-js-fundamentals/chorus-while.js
+	"	7	33
+	^	7	34
+	.	7	33
+	+	7	33
+
+> ~/lighthouse-js-fundamentals/exerLooping.js
+	"	1	0
+	^	8	0
+	.	7	20
+	+	7	20
+
+> ~/lighthouse-js-fundamentals/whichSchool.js
+	"	10	0
+	^	10	0
+	.	11	0
+	+	1	80
+	+	1	171
+	+	1	24
+	+	1	97
+	+	1	151
+	+	1	98
+	+	1	184
+	+	1	14
+	+	1	0
+	+	1	14
+	+	1	99
+	+	10	15
+	+	3	10
+	+	5	10
+	+	7	9
+	+	10	0
+	+	11	0
+
+> ~/lighthouse-js-fundamentals/go-outside.js
+	"	1	0
+	^	11	1
+	.	11	0
+	+	10	46
+	+	1	1
+	+	4	1
+	+	5	1
+	+	9	5
+	+	11	0
+
+> ~/lighthouse-js-fundamentals/even.js
+	"	1	0
+	^	8	26
+	.	8	25
+	+	2	19
+	+	8	24
+	+	7	22
+	+	8	25
+
+> ~/lighthouse-js-fundamentals/odd.js
+	"	2	14
+	^	2	15
+	.	2	14
+	+	5	35
+	+	3	1
+	+	3	1
+	+	1	11
+	+	4	0
+	+	1	11
+	+	2	14
+
+> ~/lighthouse-js-fundamentals/hello.js
+	"	4	10
+	^	4	11
+	.	2	31
+	+	1	20
+	+	2	25
+	+	4	10
+	+	1	21
+	+	2	31
 
 > /vagrant/gitMocellin/readme.txt
 	"	1	10
